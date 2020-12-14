@@ -1,0 +1,3 @@
+# ファイルの場合は最後に/
+node_modules/
+config/*.json

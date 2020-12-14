@@ -1,0 +1,13 @@
+
+    <h1>商品一覧</h1>
+    <div>
+        <ul>
+            <% items.forEach((item,index) => { %>
+            <li>
+                <%= item.name %>
+                :
+                \<%= item.price %>
+            </li>
+            <% }) %>
+        </ul>
+    </div>
